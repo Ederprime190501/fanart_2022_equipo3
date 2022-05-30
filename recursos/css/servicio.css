@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:wght@300&display=swap');
+*{
+    width: auto;
+    padding: auto;
+}
+.contenido{
+    height: auto;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+.contenido h2{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #45B39D;
+}
+.formulario{
+    /*margin-right: 50%;*/
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.mensaje {
+    resize: none;
+}
+.servicio_h1{
+    font-size: 30px;
+    font-family: 'Ubuntu';
+    font-weight:bold;
+    color: #CB4335;
+}
+.strong{
+    font-size: 15px;
+    color: #CB4335;
+    font-family: 'Ubuntu';
+}

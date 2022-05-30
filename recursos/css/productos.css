@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:wght@300&display=swap');
+
+.prod_titulo{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color:  #2471A3;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.prod_titulo2{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color:  #3498DB;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.prod_titulo3{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #CD6155;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.prod_titulo4{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #229954;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.accesorios_titulo{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #F4D03F;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    
+}
+.card{
+    animation: bounceInUp; /* referring directly to the animation's @keyframe declaration */
+}
+
+.detalle{
+    height: 700px;
+}
+
+.prod_img1{
+    height: 170px;
+    text-align: center;
+}
+
+.producto_pintura{
+    height: 500px;
+}
+
+
+.producto_pintura img{
+    height: 280px;
+    width: 190px;
+    margin: auto;
+    display: block;
+}
+@media(max-width:978px){
+    .pinturas_responsive{
+        margin-top: 20px;
+    }
+}
+@media(max-width:768px){
+    .pinturas_responsive{
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
+}

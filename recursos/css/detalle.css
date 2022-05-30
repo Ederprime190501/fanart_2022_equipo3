@@ -1,0 +1,46 @@
+.detalle{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.detalle img{
+    height: 299px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:wght@300&display=swap');
+
+.prod_titulo{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color:  #2471A3;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.prod_titulo2{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color:  #3498DB;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.prod_titulo3{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #CD6155;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.prod_titulo4{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #CD6155;
+    padding: 10px;
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.card{
+    animation: bounceInUp; /* referring directly to the animation's @keyframe declaration */
+}
